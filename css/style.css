@@ -1,55 +1,64 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
 
 /* Utilities */
 
-.links{
+.links {
     font-size: 14px;
     color: #0069ff;
     font-weight: bold;
 }
-.links:hover{
+
+.links:hover {
     color: #1633ff;
     text-decoration: none;
 }
-.links > :only-child{
+
+.links> :only-child {
     font-size: 11px;
     margin-left: 5px;
 }
+
 /* Header */
-#logo > a > img{
+#logo>a>img {
     width: 200px;
     vertical-align: middle;
 }
-.top_header{
+
+.top_header {
     height: 80px;
     line-height: 80px;
     background-color: #fff;
 }
-.top_header nav{
+
+.top_header nav {
     padding-top: 5px;
 }
-.top_header a{
+
+.top_header a {
     text-decoration: none;
     color: #000;
     font-weight: 500;
-    vertical-align: bottom;    
+    vertical-align: bottom;
 }
-.top_header a > i{
+
+.top_header a>i {
     font-size: 10px;
-    
+
 }
+
 /* Hamburger Menu */
-#hamburger_menu i{
+#hamburger_menu i {
     color: #006aff;
     font-size: 20px;
     line-height: 80px;
 }
+
 /* /Hamburger Menu */
 
 /* Sign Up Button */
-#sign_up{
+#sign_up {
     line-height: 35px;
     padding: 0 10px;
     text-transform: capitalize;
@@ -59,53 +68,60 @@ body{
     border: 1px solid #006aff;
     border-radius: 5px;
 }
-#sign_up:hover{
+
+#sign_up:hover {
     background-color: #006aff;
     color: #fff;
-    transition: color,background-color 1s;
+    transition: color, background-color 1s;
 }
+
 /* /Sign Up Button */
 
 
 /* Hero */
-#hero{
+#hero {
     background-image: url("../img/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 150px 10px;    
+    padding: 150px 10px;
     color: #fff;
     min-height: 70vh;
 }
 
-#left_hero{
-    color:#fff
+#left_hero {
+    color: #fff
 }
-#left_hero > h1{
+
+#left_hero>h1 {
     font-size: 50px;
     font-weight: bold;
     max-width: 90%;
 }
-#left_hero >p{
+
+#left_hero>p {
     font-size: 20px;
 }
 
-#right_hero{
+#right_hero {
     border-radius: 6px;
     background-color: #fff;
     color: #000;
     padding: 25px 20px;
     margin-top: 50px;
 }
-#right_hero h2{
+
+#right_hero h2 {
     width: 85%;
     margin: 10px auto;
     line-height: 40px;
 }
-#right_hero p{
+
+#right_hero p {
     font-weight: 500;
 }
-#create_account{
+
+#create_account {
     background-color: #579AFF;
     color: #fff;
     width: 100%;
@@ -113,15 +129,16 @@ body{
     font-weight: 500;
 }
 
-#sign_form{
+#sign_form {
     background-image: url("../img/google-icon.png");
     background-position: 3% center;
     background-size: 6%;
-    box-shadow: 0px 1px 1px 1px rgba(211,211,211, .3);
+    box-shadow: 0px 1px 1px 1px rgba(211, 211, 211, .3);
     background-repeat: no-repeat;
     font-weight: 500;
     margin-bottom: 10px;
 }
+
 /* /Hero */
 
 /* /Header */
@@ -130,19 +147,20 @@ body{
 
 /* Partners section */
 
-#partners{
+#partners {
     background-color: #F3F5F9;
     padding: 30px 10px;
 }
-#partners h3{
+
+#partners h3 {
     font-size: 16px;
 }
 
-#partners img{
-    margin: 10px 0px;
-    padding: 0 10px;
-    width:  110%;
-}    
+#partners li img {
+    width: 100%;
+    height: 150px;
+}
+
 /* /Partners section */
 
 
@@ -150,14 +168,10 @@ body{
 /* RESPONSIVE */
 
 /* Desktop */
-@media screen and (max-width:1200px){
-
-}
+@media screen and (max-width:1200px) {}
 
 /* Tablet */
-@media screen and (max-width:768px){
-}
+@media screen and (max-width:768px) {}
 
 /* Smartphone */
-@media screen and (max-width:767px){
-}
+@media screen and (max-width:767px) {}
