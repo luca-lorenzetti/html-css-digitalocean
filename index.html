@@ -1,70 +1,138 @@
 <!DOCTYPE html>
 <html lang="it" dir="ltr">
 
-    <head>
-        <!-- Font Roboto -->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<head>
+    <!-- Font Roboto -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
 
-        <!-- Fontawesome -->
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
-        <!-- Bootstrap -->
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-            integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-        <!-- My Style -->
-        <link rel="stylesheet" href="css/style.css">
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css">
 
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="img/logo-small.svg" type="image/x-icon">
-        
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/logo-small.svg" type="image/x-icon">
 
-        <title>DigitalOcean – The developer cloud</title>
-    </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <body>
+    <title>DigitalOcean – The developer cloud</title>
+</head>
 
-        <!-- HEADER -->
-        <header>
-            <div class="top_header navbar-fixed-top">
-                <div class="container">
-                    <div class="row text-capitalize">
-                        <div id="logo" class="col-xs-2">
-                            <a href=""> <img src="img/logo.png" alt="logo"></a>
-                        </div>
-                        <nav class="col-sm-5 visible-lg">
-                            <ul class="list-inline text-right">
-                                <li><a href="">products <i class="fas fa-chevron-down"></i></a></li>
-                                <li><a href="">customers</a></li>
-                                <li><a href="">community <i class="fas fa-chevron-down"></i></a></li>
-                                <li><a href="">pricing</a></li>
-                            </ul>
-                        </nav>
-                        <nav class="col-sm-5 visible-lg">
-                            <ul class="list-inline text-right">
-                                <li><a href="">docs</a></li>
-                                <li><a href="">supports <i class="fas fa-chevron-down"></i></a></li>
-                                <li><a href="">login</a></li>
-                                <li><button id="sign_up">sign up</button></li>
-                            </ul>
-                        </nav>
-                        <div id="hamburger_menu" class="hidden-lg col-xs-10 text-right">
-                            <a href=""><i class="fas fa-bars"></i> </a>
-                        </div> 
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="top_header navbar-fixed-top">
+            <div class="container">
+                <div class="row text-capitalize">
+                    <div id="logo" class="col-xs-2">
+                        <a href=""> <img src="img/logo.png" alt="logo"></a>
+                    </div>
+                    <nav class="col-sm-5 visible-lg">
+                        <ul class="list-inline text-right">
+                            <li><a href="">products <i class="fas fa-chevron-down"></i></a></li>
+                            <li><a href="">customers</a></li>
+                            <li><a href="">community <i class="fas fa-chevron-down"></i></a></li>
+                            <li><a href="">pricing</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="col-sm-5 visible-lg">
+                        <ul class="list-inline text-right">
+                            <li><a href="">docs</a></li>
+                            <li><a href="">supports <i class="fas fa-chevron-down"></i></a></li>
+                            <li><a href="">login</a></li>
+                            <li><button id="sign_up">sign up</button></li>
+                        </ul>
+                    </nav>
+                    <div id="hamburger_menu" class="hidden-lg col-xs-10 text-right">
+                        <a href=""><i class="fas fa-bars"></i> </a>
                     </div>
                 </div>
             </div>
-        </header>
-        <!-- /HEADER -->
+        </div>
 
-        <section>
+        <!-- Hero -->
+        <div id="hero">
+            <div id="cont" class="container">
+                <div class="row">
+                    <!-- left Column Hero -->
 
+                    <div id="left_hero" class="col-xs-12 col-sm-6 text-left">
+                        <h1>The simplest cloud platform for developers &amp; teams</h1>
+                        <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We
+                            make managing infrastructure easy for teams and businesses, whether you're running one
+                            virtual machine or ten thousand.</p>
+                    </div>
+                    <!-- /left Column Hero -->
+
+                    <!-- Right Column Hero -->
+                    <div id="right_hero" class="col-xs-12 col-sm-6 text-center">
+                        <h2>Deploy your app in seconds.
+                            <a href="">Get started now.</a>
+                        </h2>
+
+                        <!-- Form -->
+                        <form>
+                            <div class="form-group">
+                                <label class="sr-only" for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1"
+                                    placeholder="Password">
+                            </div>
+                            <button id="create_account" type="submit" class="btn btn-default form-control">Create your account</button>
+                            <button id="sign_form" type="submit" class="btn btn-default form-control">Sign up with google</button>
+                        </form>
+                        <p>By signing up you agree to the <a href=""> Terms of Service</a> </p>
+                        <!-- Form -->
+                    </div>
+                    <!-- /Right Column Hero -->
+
+                </div>
+            </div>
+        </div>
+        <!-- /Hero -->
+
+    </header>
+    <!-- /HEADER -->
+
+    <main>
+
+        <section id="partners">
+            <div class="container">
+                <div class="row text-center">
+                    <h3 class="col-xs-12 text-uppercase">innovative businesses trust digitalocean</h3>
+                    <ul class="col-xs-12 list-inline">
+                        <li><img src="img/docker.svg" alt="docker-icon"></li>
+                        <li><img src="img/gitlab.svg" alt="gitòab-icon"></li>
+                        <li><img src="img/slack.svg" alt="slack-icon"></li>
+                        <li><img src="img/hashicorp.svg" alt="hashicorpd-icon"></li>
+                        <li><img src="img/hashicorp.svg" alt="hashicorpd-icon2"></li>
+                        <li><img src="img/splunk.svg" alt="splunk-icon"></li>
+                    </ul>
+                    <a href="" class="links">View customers stories <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+            
         </section>
-    </body>
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
 
 </html>
