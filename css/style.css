@@ -1,15 +1,63 @@
-/***** CSS RESET *****/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body{
+    font-family: 'Roboto', sans-serif;
 }
-/**********************/
 
-/***** CLEARFIX *****/
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+/* Utilities */
+
+
+
+/* Header */
+#logo > a > img{
+    width: 200px;
+    vertical-align: middle;
 }
-/*********************/
+.top_header{
+    height: 100px;
+    line-height: 100px;
+    background-color: #fff;
+}
+.top_header nav{
+    padding-top: 5px;
+}
+.top_header a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    vertical-align: bottom;    
+}
+.top_header a > i{
+    font-size: 10px;
+    
+}
+/* Hamburger Menu */
+#hamburger_menu i{
+    color: #006aff;
+    font-size: 20px;
+    line-height: 80px;
+}
+/* /Hamburger Menu */
+
+/* Sign Up Button */
+#sign_up{
+    line-height: 35px;
+    padding: 0 10px;
+    text-transform: capitalize;
+    font-weight: 500;
+    background-color: transparent;
+    color: #006aff;
+    border: 1px solid #006aff;
+    border-radius: 5px;
+}
+#sign_up:hover{
+
+    background-color: #006aff;
+    color: #fff;
+    transition: color,background-color 1s;
+}
+/* /Sign Up Button */
+
+
+/* Hero */
+
+/* /Hero */
+/* /Header */
