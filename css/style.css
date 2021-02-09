@@ -19,6 +19,11 @@ body {
     font-size: 11px;
     margin-left: 5px;
 }
+.bg_secondary{
+    background-color: #F3F5F9;
+}
+
+
 
 /* Header */
 #logo>a>img {
@@ -145,23 +150,73 @@ body {
 
 
 
-/* Partners section */
+/* customers section */
 
-#partners {
-    background-color: #F3F5F9;
+#customers {
     padding: 30px 10px;
 }
 
-#partners h3 {
+#customers h3 {
     font-size: 16px;
+    color: #5b6987;
 }
 
-#partners li img {
+#customers li img {
     width: 100%;
     height: 150px;
 }
 
-/* /Partners section */
+/* /Customers section */
+
+
+/* Services section */
+#services h2 + p{
+    font-weight: 500;
+    font-size: 20px;
+    color: #5b6987;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    padding: 0 80px;
+}
+
+#services ul > li{
+    border: none;
+    margin: 0;
+    padding:0;
+}
+#services ul > li > button{
+    text-decoration: none;
+    color: #5b6987;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-left: 1px solid #5b6987;
+    padding: 15px 20px;
+}
+#services li > button:focus{
+    border-left: #006aff 2px solid;
+}
+
+.card{
+    padding: 0px 20px;
+}
+.card h4{
+    font-weight: bold;
+    padding: 10px 0;
+}
+.card p{
+    color: #5b6987;
+    font-weight: 500;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
+
+/* /Services section */
+
 
 
 
