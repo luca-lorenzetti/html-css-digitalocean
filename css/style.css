@@ -393,24 +393,144 @@ h2 {
     width: 100%;
     margin-bottom: 40px;
 }
+
 /* /Development Teams section */
 
 
 /* Get Started Section */
-#get_started{
+#get_started {
     background-image: linear-gradient(to right, #0040bd, #0040bd, #0040bd, #0040bd, #0040bd);
     padding: 40px 0;
 }
-#get_started h2{
+
+#get_started h2 {
     color: #fff;
 }
-#get_started button{
+
+#get_started button {
     margin-top: 10px;
     background-color: #fff;
     color: #0069ff;
     font-weight: 500;
 }
+
+#get_started button:hover {
+    background-color: #dbdbdb;
+}
+
 /* /Get Started Section */
+
+/* Footer */
+footer {
+    position: relative;
+    background-color: #031C4E;
+    padding: 50px 0;
+    color: #5b6886;
+}
+
+footer img {
+    margin-bottom: 9px;
+}
+
+#left_footer p:nth-child(2) {
+    margin-bottom: 0;
+    font-weight: 500
+}
+
+#left_footer p:nth-child(3) {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+footer #socials_list li {
+    padding: 5px;
+    font-size: 20px;
+}
+
+footer .container>.row ul>li {
+    background-color: transparent;
+    border: none;
+    padding: 5px 0;
+}
+
+footer .container>.row ul>li:first-child {
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+footer .container>.row ul>li>a {
+    color: #5b6886;
+}
+
+footer .container>.row ul>li>a:hover {
+    color: #fff;
+    text-decoration: none;
+    ;
+}
+
+#shark {
+    height: 50px;
+    border-radius: 12px;
+    width: 400px;
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    bottom: 20px;
+
+}
+
+#shark img {
+    height: 50px;
+    border-radius: 12px;
+    position: absolute;
+    right: 0;
+    transform: translate(-50%, -15%);
+}
+
+#notification {
+    padding: 2px 6px;
+    background-color: red;
+    border: 3px solid #fff;
+    font-size: 12px;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    transform: translate(-125%, -55%);
+    z-index: 11;
+}
+
+#cloud {
+    background-color: #fff;
+    font-weight: 500;
+    max-width: 300px;
+    height: auto;
+    border-radius: 6px;
+    padding: 0px 20px;
+    padding-top: 5px;
+    position: absolute;
+    right: 0;
+    transform: translate(-45%, -25%);
+    z-index: 11;
+
+}
+
+#cloud i {
+    display: block;
+    font-size: 25px;
+    color: #000;
+    position: absolute;
+    right: 0;
+    color: #fff;
+    transform: translate(90%, -100%);
+    z-index: 11;
+}
+
+/* Footer */
+
 
 
 /* RESPONSIVE */
