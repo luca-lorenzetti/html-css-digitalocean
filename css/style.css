@@ -23,6 +23,10 @@ body {
     background-color: #F3F5F9;
 }
 
+h2{
+    font-weight: bold;
+    text-align: center;
+}
 
 
 /* Header */
@@ -143,7 +147,6 @@ body {
     font-weight: 500;
     margin-bottom: 10px;
 }
-
 /* /Hero */
 
 /* /Header */
@@ -155,17 +158,14 @@ body {
 #customers {
     padding: 30px 10px;
 }
-
 #customers h3 {
     font-size: 16px;
     color: #5b6987;
 }
-
 #customers li img {
     width: 100%;
     height: 150px;
 }
-
 /* /Customers section */
 
 
@@ -212,13 +212,61 @@ body {
     width: 100%;
     margin-bottom: 30px;
 }
-
-
-
 /* /Services section */
 
 
+/* Developers Section */
+#developers{
+    padding: 50px;
+}
 
+#developers img{
+    margin-top: 60px;
+    width: 60%;
+}
+#developers p{
+    color: #5b6987;
+    font-weight: 500;
+    font-size: 20px;
+}
+.carousel div:first-child,.carousel div:last-child{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 40px;
+    font-size: 45px;
+    margin-top: 100px;
+}
+.carousel div:first-child{
+    color: #5b6987;
+}
+.text_carousel li{
+    padding: 0;
+    margin: 0;
+}
+.text_carousel i{
+    color:#006aff;
+    padding: 3px
+}
+.text_carousel h4{
+    margin-top: 20px;
+}
+/* /Developers Section */
+
+/* Features section */
+#features{
+    padding-bottom: 100px;
+}
+#features h2{
+    margin: 60px;
+}
+#features p{
+    margin-bottom: 10px;
+}
+/* /Features section */
+
+/* Regions section */
+
+/* /Regions section */
 
 /* RESPONSIVE */
 
