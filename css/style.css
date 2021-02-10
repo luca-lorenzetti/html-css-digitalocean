@@ -19,11 +19,13 @@ body {
     font-size: 11px;
     margin-left: 5px;
 }
-.bg_secondary{
+
+.bg_secondary {
     background-color: #F3F5F9;
 }
 
-h2{
+h2 {
+    font-size: 40px;
     font-weight: bold;
     text-align: center;
 }
@@ -147,6 +149,7 @@ h2{
     font-weight: 500;
     margin-bottom: 10px;
 }
+
 /* /Hero */
 
 /* /Header */
@@ -158,19 +161,22 @@ h2{
 #customers {
     padding: 30px 10px;
 }
+
 #customers h3 {
     font-size: 16px;
     color: #5b6987;
 }
+
 #customers li img {
     width: 100%;
     height: 150px;
 }
+
 /* /Customers section */
 
 
 /* Services section */
-#services h2 + p{
+#services h2+p {
     font-weight: 500;
     font-size: 20px;
     color: #5b6987;
@@ -179,12 +185,13 @@ h2{
     padding: 0 80px;
 }
 
-#services ul > li{
+#services ul>li {
     border: none;
     margin: 0;
-    padding:0;
+    padding: 0;
 }
-#services ul > li > button{
+
+#services ul>li>button {
     text-decoration: none;
     color: #5b6987;
     font-weight: 500;
@@ -195,77 +202,96 @@ h2{
     border-left: 1px solid #5b6987;
     padding: 15px 20px;
 }
-#services li > button:focus{
+
+#services li>button:focus {
     border-left: #006aff 2px solid;
 }
 
-.card{
+.card {
     padding: 0px 20px;
 }
-.card h4{
+
+.card h4 {
     font-weight: bold;
     padding: 10px 0;
 }
-.card p{
+
+.card p {
     color: #5b6987;
     font-weight: 500;
     width: 100%;
     margin-bottom: 30px;
 }
+
 /* /Services section */
 
 
 /* Developers Section */
-#developers{
+#developers {
     padding: 50px;
 }
 
-#developers img{
+#developers img {
     margin-top: 60px;
     width: 60%;
 }
-#developers p{
+
+#developers p {
     color: #5b6987;
     font-weight: 500;
     font-size: 20px;
 }
-.carousel div:first-child,.carousel div:last-child{
+
+.carousel div:first-child,
+.carousel div:last-child {
     display: inline-block;
     vertical-align: middle;
     padding: 0 40px;
     font-size: 45px;
     margin-top: 100px;
 }
-.carousel div:first-child{
+
+.carousel div:first-child {
     color: #5b6987;
 }
-.text_carousel li{
+
+.text_carousel li {
     padding: 0;
     margin: 0;
 }
-.text_carousel i{
-    color:#006aff;
+
+.text_carousel i {
+    color: #006aff;
     padding: 3px
 }
-.text_carousel h4{
+
+.text_carousel h4 {
     margin-top: 20px;
 }
+
 /* /Developers Section */
 
 /* Features section */
-#features{
+#features {
     padding-bottom: 100px;
 }
-#features h2{
+
+#features img {
+    margin-top: 25px;
+}
+
+#features h2 {
     margin: 60px;
 }
-#features p{
+
+#features p {
     margin-bottom: 10px;
 }
+
 /* /Features section */
 
 /* Regions section */
-#regions{
+#regions {
     background-color: #031b4e;
     background-image: url("../img/bg-map.svg");
     background-repeat: no-repeat;
@@ -274,39 +300,102 @@ h2{
     padding-bottom: 100px;
     padding-top: 50px;
 }
-#regions h2{
+
+#regions h2 {
     color: #fff;
     margin-top: 70px;
     margin-bottom: 30px;
 }
-#regions ul{
+
+#regions ul {
     padding: 0px 30px;
     margin-bottom: 30px;
 }
-#regions li{
+
+#regions li {
     color: #5b6987;
     text-align: left;
     margin-top: 20px;
 }
-#regions li:not(li:last-child){
+
+#regions li:not(li:last-child) {
     border-bottom: 1px solid #fff;
 }
-#regions li span{
+
+#regions li span {
     color: #fff;
 }
-#regions a::before{
+
+#regions a::before {
     content: "Test speed"
 }
-#regions a{
+
+#regions a {
     color: #00d7d2;
     font-weight: normal;
     text-align: right;
-    
 }
-#regions i{
-padding-left: 5px;
+
+#regions i {
+    padding-left: 5px;
 }
+
 /* /Regions section */
+
+
+/* Development Teams section */
+#teams_section {
+    padding: 50px 0;
+}
+
+#teams_section div {
+    display: inline-block;
+}
+
+#teams_section div {
+    display: inline-block;
+}
+
+#teams_section .carousel {
+    margin-top: 50px;
+}
+
+#teams_section .carousel div:first-child,
+#teams_section .carousel div:last-child {
+    font-size: 30px;
+    margin-top: -100px;
+}
+
+.carousel_central {
+    padding-top: 70px;
+    padding-bottom: 10px;
+    max-height: 400px;
+    max-width: 50%;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.carousel_central> :nth-child(2) {
+    color: #5b6987;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.carousel_central h5 {
+    font-weight: bold;
+    margin-top: 13px;
+    margin-bottom: 0px;
+}
+
+.carousel_central a {
+    margin-top: 50px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+/* /Development Teams section */
+
 
 /* RESPONSIVE */
 
