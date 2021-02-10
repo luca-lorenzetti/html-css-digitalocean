@@ -393,8 +393,24 @@ h2 {
     width: 100%;
     margin-bottom: 40px;
 }
-
 /* /Development Teams section */
+
+
+/* Get Started Section */
+#get_started{
+    background-image: linear-gradient(to right, #0040bd, #0040bd, #0040bd, #0040bd, #0040bd);
+    padding: 40px 0;
+}
+#get_started h2{
+    color: #fff;
+}
+#get_started button{
+    margin-top: 10px;
+    background-color: #fff;
+    color: #0069ff;
+    font-weight: 500;
+}
+/* /Get Started Section */
 
 
 /* RESPONSIVE */
