@@ -389,7 +389,10 @@ h2 {
     background-color: #fff;
     margin-bottom: 20px;
 }
-
+.carousel_central img{
+    max-width: 70%;
+    min-width: 50%;
+}
 .carousel_central> :nth-child(2) {
     color: #5b6987;
     font-size: 20px;
@@ -408,7 +411,9 @@ h2 {
     width: 100%;
     margin-bottom: 40px;
 }
-
+#teams_section .text_carousel{
+    margin-top: 10px;
+}
 /* /Development Teams section */
 
 
