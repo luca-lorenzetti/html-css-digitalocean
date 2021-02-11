@@ -52,6 +52,11 @@ h2 {
     color: #000;
     font-weight: 500;
     vertical-align: bottom;
+    margin-right: 5px;
+}
+
+.top_header a:hover {
+    color: #1633ff;
 }
 
 .top_header a>i {
@@ -101,7 +106,7 @@ h2 {
 }
 
 #left_hero {
-    color: #fff
+    color: #fff;
 }
 
 #left_hero>h1 {
@@ -123,11 +128,14 @@ h2 {
 }
 
 #right_hero h2 {
-    width: 85%;
     margin: 10px auto;
     line-height: 40px;
+    font-size: 34px;
 }
-
+#right_hero h2 > a{
+    text-decoration: none;
+    color:#006aff;
+}
 #right_hero p {
     font-weight: 500;
 }
@@ -155,7 +163,6 @@ h2 {
 /* /Header */
 
 
-
 /* customers section */
 
 #customers {
@@ -176,6 +183,10 @@ h2 {
 
 
 /* Services section */
+#services {
+    padding: 40px;
+}
+
 #services h2+p {
     font-weight: 500;
     font-size: 20px;
@@ -251,8 +262,12 @@ h2 {
     margin-top: 100px;
 }
 
-.carousel div:first-child {
+.carousel .arrow_left a {
     color: #5b6987;
+}
+
+.carousel .arrow_right a {
+    color: #000;
 }
 
 .text_carousel li {
@@ -477,15 +492,20 @@ footer .container>.row ul>li>a:hover {
     z-index: 10;
     right: 0;
     bottom: 20px;
+    opacity: 0.3
+}
 
+#shark:hover {
+    opacity: 1;
+    transition: opacity 1s;
 }
 
 #shark img {
-    height: 50px;
+    height: 60px;
     border-radius: 12px;
     position: absolute;
     right: 0;
-    transform: translate(-50%, -15%);
+    transform: translate(-100%, -26%);
 }
 
 #notification {
@@ -499,7 +519,7 @@ footer .container>.row ul>li>a:hover {
     border-radius: 50%;
     position: absolute;
     right: 0;
-    transform: translate(-125%, -55%);
+    transform: translate(-170%, -80%);
     z-index: 11;
 }
 
